@@ -1,0 +1,32 @@
+body{
+	color:#B4DE10; /*задаёт цвет шрывту*/
+	background:#5E0091; /*красит фон*/
+	font-family: 'Amatic SC', cursive; /*задаёт шрывт*/
+	margin: 0; /*удаляет отступы*/
+	text-align:center; /*переносит текст или фото в центрррр*/
+}
+h1{
+	font-size:50px;
+}
+img{
+	width:100px;
+	margin-bottom:10px
+}
+div{
+	width:300px;
+	margin-right:50px;
+	display:inline-block;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	display:block;
+	color:#FCFF00;
+	font-size:35px;
+}
+.O{
+	border-radius:42%;
+}
+a:hover{
+	color:#FF9C00;
+}
