@@ -7,48 +7,53 @@
 	<title>красивые места</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 <body>
 	<div class="cont">
-			<h1>
+			<h1 class="animate__animated animate__flipInY">
 		красивые места
 	</h1>
 	<div class="flex">
-		<a target="_blank" href="img1.webp">
+		<a class="wow animate__animated animate__bounceIn" data-wow-delay="0.9s" target="_blank" href="img1.webp">
 			<img src="img1.webp" alt="">
 			<div class="shadow">САНКТ-ПЕТЕРБУРГ</div>
 		</a>
-		<a target="_blank" href="img2.webp">
+		<a class="wow animate__animated animate__bounceIn" data-wow-delay="0.9s" target="_blank" href="img2.webp">
 	    	<img src="img2.webp" alt="">
 	    	<div class="shadow">АРКАШОН (ДЮНА-ПИЛАР)</div>
 		</a>
 	</div>
-	<div class="flex">
-		<a target="_blank" href="img3.jpg">
+	<div  class="flex">
+		<a class="wow animate__animated animate__bounceIn" data-wow-delay="0.9s" target="_blank" href="img3.jpg">
 			<img src="img3.jpg" alt="">
 			<div class="shadow">ВАЛЕНСИЯ</div>
 		</a>
-		<a target="_blank" href="img4.jpg">
+		<a class="wow animate__animated animate__bounceIn" data-wow-delay="0.9s" target="_blank" href="img4.jpg">
 	    	<img src="img4.jpg" alt="">
 	    	<div class="shadow">АЛИКАНТЕ</div>
 		</a>
 	</div>
 	<div class="flex">
-		<a target="_blank" href="img5.jpg">
+		<a class="wow animate__animated animate__bounceIn" data-wow-delay="0.9s" target="_blank" href="img5.jpg">
 			<img src="img5.jpg" alt="">
 			<div class="shadow">АФИНЫ</div>
 		</a>
-		<a target="_blank" href="img6.jpg">
+		<a class="wow animate__animated animate__bounceIn"data-wow-delay="0.9s" target="_blank" href="img6.jpg">
 	    	<img src="img6.jpg" alt="">
 	    	<div class="shadow">БАРСЕЛОНА</div>
 		</a>
 	</div>
 	<div class="flex">
-		<a target="_blank" href="img7.jpg">
+		<a class="wow animate__animated animate__bounceIn"data-wow-delay="0.9s" target="_blank" href="img7.jpg">
 			<img src="img7.jpg" alt="">
-			<div class="shadow">БРЮГГА</div>
+			<div class="shadow">БРЮГГЕ</div>
 		</a>
-		<a target="_blank" href="img8.jpg">
+		<a class="wow animate__animated animate__bounceIn"data-wow-delay="0.9s" target="_blank" href="img8.jpg">
 	    	<img src="img8.jpg" alt="">
 	    	<div class="shadow">ТАЛЛИН</div>
 		</a>
@@ -59,6 +64,9 @@
 	</footer>
 
 	</div>
-	
+	   <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
