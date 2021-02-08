@@ -1,0 +1,28 @@
+@media screen and (max-width: 720px) {
+	.img{
+		animation-name: none;
+		position: static;
+		width:95vw;
+		height: auto;
+		margin:15px auto;
+		display: block;
+		text-decoration: none;
+	}
+	img{
+		width:95vw;
+		height: auto;
+	}
+	.ghost{
+		display: none;
+	}
+	body{
+		overflow: visible;
+		height:auto;
+
+	}
+	.shadow{
+		/*display: none;*/
+		opacity: 1;
+		position: static;
+	}
+}
